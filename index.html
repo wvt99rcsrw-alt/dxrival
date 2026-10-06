@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>DXRIVAL | Official</title>
+  <meta name="description" content="Official DXRIVAL website.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #050505;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 30px 20px;
+      background:
+        radial-gradient(circle at center, #292929 0%, #111111 35%, #050505 75%);
+    }
+
+    .hero-content {
+      width: 100%;
+      max-width: 900px;
+    }
+
+    .official {
+      display: inline-block;
+      border: 1px solid #444;
+      border-radius: 50px;
+      padding: 9px 17px;
+      color: #aaa;
+      font-size: 11px;
+      letter-spacing: 3px;
+      margin-bottom: 25px;
+    }
+
+    .logo {
+      font-size: clamp(65px, 14vw, 140px);
+      font-weight: 900;
+      letter-spacing: -7px;
+      line-height: .9;
+    }
+
+    .tagline {
+      color: #999;
+      font-size: 14px;
+      letter-spacing: 5px;
+      margin-top: 28px;
+      margin-bottom: 38px;
+      text-transform: uppercase;
+    }
+
+    .main-button {
+      display: inline-block;
+      background: white;
+      color: black;
+      text-decoration: none;
+      padding: 15px 30px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: .2s;
+    }
+
+    .main-button:hover {
+      background: #ddd;
+      transform: translateY(-2px);
+    }
+
+    section {
+      padding: 80px 20px;
+      border-top: 1px solid #181818;
+    }
+
+    .section-title {
+      text-align: center;
+      font-size: 36px;
+      margin-bottom: 15px;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: #777;
+      margin-bottom: 40px;
+    }
+
+    .music-container {
+      max-width: 850px;
+      margin: auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .song {
+      background: #0d0d0d;
+      border: 1px solid #292929;
+      border-radius: 16px;
+      padding: 30px;
+      text-decoration: none;
+      color: white;
+      transition: .25s;
+    }
+
+    .song:hover {
+      background: #151515;
+      border-color: #777;
+      transform: translateY(-4px);
+    }
+
+    .song-number {
+      color: #666;
+      font-size: 12px;
+      letter-spacing: 2px;
+    }
+
+    .song-title {
+      display: block;
+      font-size: 25px;
+      font-weight: 800;
+      margin: 14px 0;
+    }
+
+    .song-link {
+      color: #999;
+      font-size: 13px;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .link-button {
+      color: white;
+      text-decoration: none;
+      border: 1px solid #333;
+      padding: 14px 25px;
+      border-radius: 8px;
+      transition: .2s;
+    }
+
+    .link-button:hover {
+      background: #171717;
+    }
+
+    footer {
+      text-align: center;
+      color: #555;
+      padding: 35px 20px;
+      font-size: 12px;
+    }
+
+    @media (max-width: 650px) {
+      .music-container {
+        grid-template-columns: 1fr;
+      }
+
+      .logo {
+        letter-spacing: -4px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="hero">
+
+    <div class="hero-content">
+
+      <div class="official">
+        OFFICIAL ARTIST SITE
+      </div>
+
+      <h1 class="logo">
+        DXRIVAL
+      </h1>
+
+      <p class="tagline">
+        Music • Vision • No Limits
+      </p>
+
+      <a
+        class="main-button"
+        href="https://linktr.ee/dxrival"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        LINKTREE
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <section>
+
+    <h2 class="section-title">
+      Music
+    </h2>
+
+    <p class="section-subtitle">
+      Listen to DXRIVAL
+    </p>
+
+    <div class="music-container">
+
+      <a
+        class="song"
+        href="https://linktr.ee/dxrival"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="song-number">01</span>
+
+        <span class="song-title">
+          Ragin'
+        </span>
+
+        <span class="song-link">
+          Listen on Linktree →
+        </span>
+      </a>
+
+
+      <a
+        class="song"
+        href="https://linktr.ee/dxrival"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <span class="song-number">02</span>
+
+        <span class="song-title">
+          Money to the Grave
+        </span>
+
+        <span class="song-link">
+          Listen on Linktree →
+        </span>
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <section>
+
+    <h2 class="section-title">
+      Follow DXRIVAL
+    </h2>
+
+    <div class="links">
+
+      <a
+        class="link-button"
+        href="https://linktr.ee/dxrival"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Linktree
+      </a>
+
+    </div>
+
+  </section>
+
+
+  <footer>
+    © 2026 DXRIVAL. All rights reserved.
+  </footer>
+
+</body>
+</html>
