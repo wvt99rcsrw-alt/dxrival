@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DXRIVAL — Official</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,Helvetica,sans-serif;background:#090909;color:#fff}
+a{color:inherit;text-decoration:none}
+.hero{min-height:72vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:40px 20px;background:radial-gradient(circle at center,#292929 0,#111 38%,#070707 75%)}
+.hero .photo{width:190px;height:190px;border-radius:50%;border:3px solid #fff;display:flex;align-items:center;justify-content:center;margin:0 auto 25px;background:#1a1a1a;color:#777;font-size:14px}
+h1{font-size:clamp(55px,11vw,110px);letter-spacing:8px;font-weight:900}
+.tag{margin-top:12px;color:#aaa;letter-spacing:4px;text-transform:uppercase}
+.btn{display:inline-block;margin-top:28px;padding:14px 25px;border:1px solid #fff;border-radius:30px;font-weight:700}
+section{max-width:1050px;margin:auto;padding:75px 22px}
+h2{font-size:38px;margin-bottom:30px}
+.tracks{display:grid;gap:14px}
+.track{display:flex;align-items:center;gap:18px;padding:20px;border:1px solid #252525;background:#111;border-radius:14px}
+.play{width:45px;height:45px;border-radius:50%;border:0;background:#fff;color:#000;font-size:17px;cursor:pointer}
+.track-name{font-size:20px;font-weight:700}.year{margin-left:auto;color:#777}
+.about{color:#bbb;line-height:1.7;max-width:700px}
+.links{display:flex;flex-wrap:wrap;gap:12px}
+.link{padding:14px 20px;border:1px solid #333;border-radius:10px;background:#111}
+footer{text-align:center;padding:35px;color:#666;border-top:1px solid #1d1d1d}
+@media(max-width:600px){h1{letter-spacing:4px}.year{display:none}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div>
+    <div class="photo">DXRIVAL PHOTO</div>
+    <h1>DXRIVAL</h1>
+    <p class="tag">Official Artist Website</p>
+    <a class="btn" href="#music">Listen to the music</a>
+  </div>
+</header>
+
+<section id="music">
+  <h2>Music</h2>
+  <div class="tracks">
+    <div class="track"><button class="play" onclick="alert('Add the audio file for Ragin\' here.')">▶</button><span class="track-name">Ragin'</span></div>
+    <div class="track"><button class="play" onclick="alert('Add the audio file for Money to the Grave here.')">▶</button><span class="track-name">Money to the Grave</span></div>
+    <div class="track"><button class="play" onclick="alert('Add the audio file for Famous Prayer here.')">▶</button><span class="track-name">Famous Prayer</span></div>
+    <div class="track"><button class="play" onclick="alert('Add the audio file for 315 (2020) here.')">▶</button><span class="track-name">315 (2020)</span></div>
+    <div class="track"><button class="play" onclick="alert('Add the audio file for High School Hate here.')">▶</button><span class="track-name">High School Hate</span></div>
+  </div>
+</section>
+
+<section>
+  <h2>About DXRIVAL</h2>
+  <p class="about">Welcome to the official DXRIVAL website. Explore the music, releases, and official links all in one place.</p>
+</section>
+
+<section>
+  <h2>Follow</h2>
+  <div class="links">
+    <a class="link" href="https://linktr.ee/dxrival" target="_blank">Linktree</a>
+    <a class="link" href="https://music.apple.com/us/artist/dxrival/1437823145" target="_blank">Apple Music</a>
+  </div>
+</section>
+
+<footer>© 2026 DXRIVAL. All rights reserved.</footer>
+</body>
+</html>
